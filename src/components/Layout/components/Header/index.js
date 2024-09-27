@@ -1,64 +1,18 @@
 import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
-import Tippy from '@tippyjs/react';
-import HeadlessTippy from '@tippyjs/react/headless';
-import Button from '../../../Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    faCircleXmark,
-    faSpinner,
     faMagnifyingGlass,
-    faEllipsisVertical,
     faLanguage,
     faCircleQuestion,
     faKeyboard,
-    faCloudUpload,
-    faMessage,
-    faUser,
-    faCoins,
-    faGear,
-    faSignOut,
-    faUserCircle,
     faUserAlt,
     faCartShopping,
     faFire,
 } from '@fortawesome/free-solid-svg-icons';
-import { Wrapper as PopperWrapper } from '../../../Popper';
-import AccountItem from '../../../AccountItem';
-import Menu from '../../../Popper/Menu';
 import 'tippy.js/dist/tippy.css';
 import ArrowDown from '../../../../icon/arrowdown';
-
-const cx = classNames.bind(styles);
-const MENU_ITEMS = [
-    {
-        icon: <FontAwesomeIcon icon={faLanguage} />,
-        title: 'English',
-        children: {
-            title: 'English',
-            data: [
-                {
-                    code: 'en',
-                    title: 'English',
-                },
-                {
-                    code: 'vi',
-                    title: 'Tiếng Việt',
-                },
-            ],
-        },
-    },
-    {
-        icon: <FontAwesomeIcon icon={faCircleQuestion} />,
-        title: 'Feedback and help',
-        to: '/feedback',
-    },
-    {
-        icon: <FontAwesomeIcon icon={faKeyboard} />,
-        title: 'Keyboard shortcuts',
-    },
-];
 
 function Header() {
 
