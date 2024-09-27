@@ -96,37 +96,71 @@ function Header() {
                         </li>
                         <li>
                             DÂY CHUYỀN
-                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
-                            <div className={styles.submenu}></div>
+                            <div className={styles.submenu}>
+                                <div className={styles.menu1}>
+                                    <ul className={styles.ul1}>
+                                        <div className={styles.li1}>
+                                            <li>Chất lượng</li>
+                                            <li>Dây chuyền bạc</li>
+                                            <li>Dây chuyền vàng 10k</li>
+                                            <li>Dây chuyền đính đá</li>
+                                            <li>Dây chuyền ngọc trai</li>
+                                        </div>
+                                    </ul>
+                                    <ul className={styles.ul2}>
+                                        <div className={styles.li2}>
+                                            <li>Đối tượng</li>
+                                            <li>Dây chuyền nữ</li>
+                                            <li>Dây chuyền nam</li>
+                                            <li>Dây chuyền đôi</li>
+                                            <li>Dây chuyền quà tặng</li>
+                                        </div>
+                                    </ul>
+                                    <ul className={styles.ul3}>
+                                        <div className={styles.li3}>
+                                            <li>Loại</li>
+                                            <li>Mặt dây chuyền</li>
+                                            <li>Dây chuyền đeo sát cổ</li>
+                                            <li>Dây chuyền xích</li>
+                                            <li>Dây chuyền bi</li>
+                                        </div>
+                                    </ul>
+                                    <ul className={styles.ul4}>
+                                        <div className={styles.li4}>
+                                            <li>Hình</li>
+                                            <li>Dây chuyền mặt tròn</li>
+                                            <li>Dây chuyền cỏ 4 lá</li>
+                                            <li>Dây chuyền trái tim</li>
+                                            <li>Dây chuyền kim tiền</li>
+                                            <li>Dây chuyền mặt trăng</li>
+                                            <li>Dây chuyền bướm</li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                         <li>
                             HOA TAI
-                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
                             <div className={styles.submenu}></div>
                         </li>
                         <li>
                             LẮC TAY
-                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
                             <div className={styles.submenu}></div>
                         </li>
                         <li>
                             NHẪN
-                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
                             <div className={styles.submenu}></div>
                         </li>
                         <li>
                             QUÀ & ĐỒ ĐÔI
-                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
                             <div className={styles.submenu}></div>
                         </li>
                         <li>
                             SHOP
-                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
                             <div className={styles.submenu}></div>
                         </li>
                         <li>
                             ABOUT US
-                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
                             <div className={styles.submenu}></div>
                         </li>
                     </ul>
