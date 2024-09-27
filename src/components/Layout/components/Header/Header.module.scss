@@ -59,20 +59,36 @@
         list-style-type: none;
         display: flex;
         justify-content: space-around;
-      }
 
-      li {
-        padding: 10px;
-        cursor: pointer;
-        font-size: 13.5px !important;
+        li {
+          padding: 10px;
+          // position: relative;
+          cursor: pointer;
+          font-size: 13.5px !important;
 
-        .iconFire {
-          margin-left: 10px;
-          color: red;
-        }
+          .iconFire {
+            margin-left: 6px;
+            color: red;
+          }
 
-        &:hover {
-          color: #71bec2;
+          .iconArrow {
+            margin-left: 8px;
+          }
+
+          // .submenu {
+          //   // display: none;
+          //   // position: absolute;
+          //   width: 1475px;
+          //   height: 270px;
+          //   background-color: #fff; 
+          //   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          //   z-index: 1;
+          // }
+
+          &:hover {
+            // display: block;
+            color: #71bec2;
+          }
         }
       }
     }

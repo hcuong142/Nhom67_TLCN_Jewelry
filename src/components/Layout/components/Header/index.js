@@ -23,12 +23,12 @@ import {
     faUserAlt,
     faCartShopping,
     faFire,
+    faArrowDown,
 } from '@fortawesome/free-solid-svg-icons';
 import { Wrapper as PopperWrapper } from '../../../Popper';
 import AccountItem from '../../../AccountItem';
 import Menu from '../../../Popper/Menu';
 import 'tippy.js/dist/tippy.css';
-import ArrowDown from '../../../../icon/arrowdown';
 
 const cx = classNames.bind(styles);
 const MENU_ITEMS = [
@@ -96,14 +96,39 @@ function Header() {
                         </li>
                         <li>
                             DÂY CHUYỀN
-                            <ArrowDown />
+                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
+                            <div className={styles.submenu}></div>
                         </li>
-                        <li>HOA TAI</li>
-                        <li>LẮC TAY</li>
-                        <li>NHẪN</li>
-                        <li>QUÀ & ĐỒ ĐÔI</li>
-                        <li>SHOP</li>
-                        <li>ABOUT US</li>
+                        <li>
+                            HOA TAI
+                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
+                            <div className={styles.submenu}></div>
+                        </li>
+                        <li>
+                            LẮC TAY
+                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
+                            <div className={styles.submenu}></div>
+                        </li>
+                        <li>
+                            NHẪN
+                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
+                            <div className={styles.submenu}></div>
+                        </li>
+                        <li>
+                            QUÀ & ĐỒ ĐÔI
+                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
+                            <div className={styles.submenu}></div>
+                        </li>
+                        <li>
+                            SHOP
+                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
+                            <div className={styles.submenu}></div>
+                        </li>
+                        <li>
+                            ABOUT US
+                            <FontAwesomeIcon className={styles.iconArrow} icon={faArrowDown} />
+                            <div className={styles.submenu}></div>
+                        </li>
                     </ul>
                 </div>
             </div>
