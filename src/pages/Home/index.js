@@ -14,7 +14,7 @@ function Home() {
 
     const getUsers = async () => {
         let res = await fetchAllUser();
-        // console.log("check", res);
+        console.log("check", res);
         if(res && res.data && res.data.data) {
             setListUsers(res.data.data);
         }
