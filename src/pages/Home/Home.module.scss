@@ -1,7 +1,7 @@
 .wrapper {
   margin: 0;
   padding: 0;
-  min-height: 2000px;
+  min-height: 3000px;
 
   .img {
     object-fit: cover;
@@ -55,6 +55,113 @@
           margin-left: 12px;
         }
       }
+    }
+  }
+
+  .titleModules {
+    text-align: center;
+    margin: 30px 125px 35px 125px;
+    font-size: 26px;
+    color: #71bec2;
+    font-weight: 500;
+
+    .top {
+      margin-left: 8px;
+      text-decoration: underline;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .swiper {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 125px 35px 125px;
+
+    .item {
+      width: 303px;
+      height: 390px;
+
+      .swiperContainer {
+        position: relative;
+      }
+
+      .blinkingCircle {
+        width: 30px;
+        height: 30px; 
+        background-color: #ff0000; 
+        border-radius: 50%; 
+        animation: blink 1s infinite; 
+      }
+
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+
+      .picture {
+        width: 303px;
+        height: 305px;
+        object-fit: contain;
+      }
+
+      .footerItem {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .price {
+          color: red;
+          .dong {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .desc {
+        width: 303px;
+        line-height: 22px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 480;
+        color: #0a0000;
+        // white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .sold {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 150px;
+        border-radius: 20px;
+        height: 16px;
+        font-size: 12px;
+        color: #fff;
+        line-height: 14px;
+        background-color: #00577d;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .banner{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 125px 35px 125px;
+    .imgBanner{
+      object-fit: contain;
+      width: 410px;
+      height: 185px;
     }
   }
 }

@@ -1,4 +1,5 @@
 import Header from '../../Layout/components/Header';
+import Footer from '../../Layout/components/Footer';
 // import Sidebar from './Sidebar';
 import styles from './DefaultLayout.module.scss';
 import classNames from 'classnames/bind';
@@ -13,6 +14,7 @@ function DefaultLayout({ children }) {
                 {/* <Sidebar /> */}
                 <div className={cx('content')}>{children}</div>
             </div>
+            <Footer />
         </div>
     );
 }

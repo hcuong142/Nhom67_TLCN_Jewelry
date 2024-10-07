@@ -74,8 +74,181 @@ function Home() {
             </div>
 
             <div className={styles.titleModules}>
-                TOP Best Sellers
+                <a className={styles.bestSeller}>
+                    TOP 
+                    <span className={styles.top}>Best Sellers</span>
+                </a>
             </div>
+
+            <div className={styles.swiper}>
+                <div className={styles.item}>
+                    {/* <div className={styles.blinkingCircle}></div> */}
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/100/461/213/products/vyn13-t-2-1659674330751.jpg?v=1728275541507' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    1.200.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1996
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.item}>
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/thumb/large/100/461/213/products/vyb27-b-new.png?v=1672136365250' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    890.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1876
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.item}>
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/thumb/large/100/461/213/products/a0015405-7807-4557-8876-0e44cc2efe00-1706431525451.png?v=1706431534320' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    950.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1026
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.item}>
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/thumb/large/100/461/213/products/vub02-2-1700038889447.png?v=1700108479560' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    950.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1056
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.titleModules}>
+                <a className={styles.bestSeller}>
+                    Fine 
+                    <span className={styles.top}>Silver Jewelry</span>
+                </a>
+            </div>
+
+
+            <div className={styles.swiper}>
+                <div className={styles.item}>
+                    {/* <div className={styles.blinkingCircle}></div> */}
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/100/461/213/products/vyn13-t-2-1659674330751.jpg?v=1728275541507' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    1.200.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1996
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.item}>
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/thumb/large/100/461/213/products/vyb27-b-new.png?v=1672136365250' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    890.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1876
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.item}>
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/thumb/large/100/461/213/products/a0015405-7807-4557-8876-0e44cc2efe00-1706431525451.png?v=1706431534320' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    950.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1026
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.item}>
+                    <img className={styles.picture} src='https://bizweb.dktcdn.net/thumb/large/100/461/213/products/vub02-2-1700038889447.png?v=1700108479560' alt='daychuyenbac925'/>
+                    <div>
+                        <span className={styles.desc}>Dây Chuyền Bạc 925 Vương Miện Đá Nhảy Hàn Quốc My Queen - Mặt Tròn Vương Miện - VYN13</span>
+                        <div className={styles.footerItem}>
+                            <div>
+                                <h4 className={styles.price}>
+                                    950.000
+                                    <span className={styles.dong}>đ</span>
+                                </h4>
+                            </div>
+                            <div className={styles.sold}>
+                                Đã bán 1056
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.banner}>
+                
+                <div>
+                    <img className={styles.imgBanner} src='https://bizweb.dktcdn.net/100/461/213/themes/870653/assets/img_3banner_1.jpg?1728012064200' alt='giftLove'/>
+                </div>
+
+                <div>
+                    <img className={styles.imgBanner} src='https://bizweb.dktcdn.net/100/461/213/themes/870653/assets/img_3banner_2.jpg?1728012064200' alt='giftLove'/>
+                </div>
+                
+                <div>
+                    <img className={styles.imgBanner} src='https://bizweb.dktcdn.net/100/461/213/themes/870653/assets/img_3banner_3.jpg?1728012064200' alt='giftLove'/>
+                </div>
+
+            </div>
+
+
 
         </div>
     )
