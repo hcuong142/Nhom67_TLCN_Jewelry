@@ -166,7 +166,7 @@ function Header() {
                                         </div>
                                     </ul>
                                     <ul className={styles.ul3}>
-                                        <div className={styles.li3}>
+                                        <div className={styles.li5}>
                                             <li className={styles.headerli}>Loại</li>
                                             <li>Khuyên tai nụ</li>
                                             <li>Khuyên tai hoop</li>
